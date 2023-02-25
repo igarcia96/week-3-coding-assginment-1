@@ -1,0 +1,77 @@
+int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
+int lengthOfArr = ages.length;
+int difference = Math.abs(ages[lengthOfArr-lengthOfArr] - ages[lengthOfArr - 1]);
+
+system.out.printIn("Difference of first and last element in ages[] = " + difference);
+
+int[] newAges = new int[ages.length];
+
+system.arraycopy(ages, 0, newAges, 0, ages.length);
+
+lengthOfArr = newAges. length;
+newAges[lengthOfArr - 1] = 100;
+difference = Math.abs(newAges[lengthOfArr - lengthOfArr] - newAges[lengthOfArr - 1]);
+
+system.out.printIn("difference of first and last element in NewAges[] = ") + difference
+
+int sum = 0;
+for (int i = 0; i < newAges.length, i++){
+    sum += newAges[1];
+}
+double average = sum / lengthOfArr;
+ssytem.out.printIn("the avaerage age in newAges[] = " + average);
+
+
+string[] names = ('Sam' , 'Tommy', 'Sally', 'Buck', 'Bob');
+sum = 0;
+for (int i = 0; i < names.length; i++){
+    sum += names[i].length();
+}
+average = sum / names. length;
+system.out.printIn("the average number of letters per name in names[] = " + average);
+
+string allnames = "";
+for (int i = 0; i < names.length; i++){
+    allnames += names[i] + "";
+}
+system.out.printIn(allnames);
+
+
+system.out.printIn("use array[arr.length] to access the last element of an array");
+
+
+system.out.printIn("use array[0] to access the first element of an arry");
+
+int namesLengths = new int[names.length];
+for (i = 0; i < names.length; i++){
+    namesLength[i] = names[i].length;
+}
+
+sume = 0;
+for int(i = 0; i < nameslength.length; i++){
+    sum = nameslength[i];
+}
+
+function duplicateWord("Hello", 3);
+
+
+function creatnames(fristnames, lastnames){
+    console.log(firstnames + '' + lastname);
+}
+creatnames('Issac, Garcia');
+
+
+function greaterthan100(){
+    for(let i =0; i < 100; i++);
+       console.log(i);
+}
+
+
+function willBuyDrink(){
+    isHotOutside = true;
+    moneyInPocket = true;
+     console.log(moneyInPocket < 10.50);
+}     
+
+
+
